@@ -133,9 +133,9 @@ export const FinanceProvider: React.FC<{ children: ReactNode }> = ({ children })
 
       const dailyBudget = netIncome / (remainingDays || 1); // Avoid division by zero
 
-      const tip = `You have ₹${netIncome.toFixed(
+      const tip = `You have GH₵${netIncome.toFixed(
         2
-      )} remaining for ${remainingDays} days. That's about ₹${dailyBudget.toFixed(
+      )} remaining for ${remainingDays} days. That's about GH₵${dailyBudget.toFixed(
         2
       )} per day. Try to limit your daily expenses to stay within this budget.`;
 

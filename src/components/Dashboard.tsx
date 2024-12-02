@@ -148,7 +148,7 @@ const FinanceTrackerDashboard: React.FC = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-4xl font-extrabold mb-2 text-blue-800">
-            Finance Tracker Dashboard
+            AI-Driven Finance Tracker Dashboard
           </h1>
           <p className="text-md text-blue-700">
             Track your expenses and manage your financial health.
@@ -189,7 +189,7 @@ const FinanceTrackerDashboard: React.FC = () => {
               />
             </div>
             <div className="mb-2">
-              <label className="block font-semibold mb-1">Total Income (₹):</label>
+              <label className="block font-semibold mb-1">Total Income (GH₵):</label>
               <input
                 type="number"
                 value={totalIncome}
@@ -252,7 +252,7 @@ const FinanceTrackerDashboard: React.FC = () => {
               </select>
             </div>
             <div className="mb-2">
-              <label className="block font-semibold mb-1">Amount (₹):</label>
+              <label className="block font-semibold mb-1">Amount (GH₵):</label>
               <input
                 type="number"
                 value={amount}
@@ -293,7 +293,7 @@ const FinanceTrackerDashboard: React.FC = () => {
                 <li key={transaction.id} className="flex justify-between mb-1 p-1 border-b">
                   <div>
                     {transaction.type === 'income' ? 'Income' : 'Expense'} -{' '}
-                    {transaction.category} - ₹ {transaction.amount}
+                    {transaction.category} - GH₵ {transaction.amount}
                   </div>
                   <div>{new Date(transaction.date).toLocaleDateString()}</div>
                 </li>

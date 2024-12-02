@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Swapnance",
+  title: "AI-Driven Finance Tracker",
   description: "Make your money work for you.",
 };
 

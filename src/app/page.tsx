@@ -21,7 +21,7 @@ const Landing: React.FC = () => {
   }, []);
 
   const handleUpvote = () => {
-    window.open('https://quira.sh/repo/Swapnendu003-swapnance-865611807?utm_source=copy&utm_share_context=quests_creators', '_blank');
+    window.open();
     localStorage.setItem('hasUpvoted', 'true');
     setShowPopup(false);
   };
@@ -91,7 +91,7 @@ const Landing: React.FC = () => {
                 className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-full"
               ></motion.div>
             </div>
-            <h1 className="text-xl font-semibold">SwapNance</h1>
+            <h1 className="text-xl font-semibold">AI-Driven Finance Tracker</h1>
           </div>
           <nav className="hidden md:flex space-x-8 text-white">
             <a href="#" className="hover:text-blue-300 transition">Home</a>
@@ -116,12 +116,10 @@ const Landing: React.FC = () => {
             className="flex-1 text-left md:max-w-[50%] z-10"
           >
             <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
-              Financial <br /> Solutions.
+              Financial <br /> Tracker & AI Companion.
             </h2>
             <p className="text-lg md:text-xl mb-8 leading-relaxed">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics.
+              
             </p>
             <motion.button
               whileHover={{ scale: 1.1, backgroundColor: "#333333" }}
@@ -189,7 +187,7 @@ const Landing: React.FC = () => {
       </motion.div>
 
       <CopilotPopup
-        instructions="You are an AI language model specialized in providing guidance on various finance-related topics based on the Indian market..."
+        instructions="You are an AI language model specialized in providing guidance on various finance-related topics based on the Ghanian market..."
         labels={{
           title: "Money Maker",
           initial: "Hi! 👋 How can I assist you in making money?",

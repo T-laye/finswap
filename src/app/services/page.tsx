@@ -48,7 +48,7 @@ const OurServices: React.FC = () => {
           }}
         >
           {/* Card 1: Investment Planner */}
-          <Link href="/services/planner">
+          <Link href="/services/finance-tracker">
             <motion.div
               whileHover={{ scale: 1.05, translateY: -10 }}
               className="flex flex-col items-center bg-gradient-to-b from-white to-gray-100 rounded-xl shadow-lg hover:shadow-2xl p-8 relative overflow-hidden transition-all duration-300"
@@ -92,7 +92,7 @@ const OurServices: React.FC = () => {
           </Link>
 
           {/* Card 3: Quiz */}
-          <Link href="/services/quiz">
+          <Link href="/services/finance-tracker">
             <motion.div
               whileHover={{ scale: 1.05, translateY: -10 }}
               className="flex flex-col items-center bg-gradient-to-b from-blue-700 to-blue-600 text-white rounded-xl shadow-lg hover:shadow-2xl p-8 relative overflow-hidden transition-all duration-300"
@@ -118,7 +118,7 @@ const OurServices: React.FC = () => {
       {/* Footer Section */}
       <footer className="w-full py-6 bg-blue-800 text-white text-center mt-0 h-[7rem]">
         <p className="text-lg mt-5">
-          Made with love <span className="text-red-500">❤️</span> by Swapnendu Banerjee
+          AI-Driven <span className="text-red-500">-</span> Financial Tracker
         </p>
       </footer>
     </div>
